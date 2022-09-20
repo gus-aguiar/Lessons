@@ -2,6 +2,9 @@
 padding: 0px;}
 body {
     background-color: rgb(253, 251, 251); 
+    font-family: helvetica;
+    font-size: small;
+    line-height: 15px;
 }
 #cabecalho {
     position: fixed;
@@ -44,16 +47,16 @@ body {
   }
   table{
     float: left;
-    padding: 50px;
+    padding: 10px;
   }
   #rodape {
     float: left;
     position: absolute;
-    top: 400%;
+    top: 300%;
     width: 90%;
-    height: 50px;
+    height: 10px;
     text-align: center;
-    border: 1px black solid;
+    border: 1px #a3a0a0 solid;
     padding: 20px;
   }
   h2{
@@ -62,4 +65,12 @@ body {
   }
   #linkedin{
     text-decoration: none;
+  }
+  td, th {
+    border: 1px solid #a3a0a0;
+    text-align: left;
+    padding: 3px;
+  }
+  tr:nth-child(even) {
+    background-color: #a3a0a0;
   }
