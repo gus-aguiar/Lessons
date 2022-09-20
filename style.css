@@ -28,15 +28,15 @@ body {
   #licoes_a_aprender{
     margin: 5%;
   }
-  article{
+  .lado-esquerdo{
     display: inline-block;
     float: left;
-    width: 50%;
+    width: 45%;
   }
-  aside{
+  .lado-direito{
     display: inline-block;
     float: right;
-    width: 50%;
+    width: 30%;
   }
 
   ul{
@@ -54,7 +54,7 @@ body {
   #rodape {
     float: left;
     position: absolute;
-    top: 300%;
+    top: 350%;
     width: 90%;
     height: 10px;
     text-align: center;
