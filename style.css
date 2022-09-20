@@ -46,13 +46,20 @@ body {
     float: left;
     padding: 50px;
   }
-  footer {
+  #rodape {
+    float: left;
     position: absolute;
-    bottom: 8%;
-    width: 100%;
+    top: 400%;
+    width: 90%;
     height: 50px;
+    text-align: center;
+    border: 1px black solid;
+    padding: 20px;
   }
   h2{
     float: left;
     margin: 20px 10px 10px 20%;
+  }
+  #linkedin{
+    text-decoration: none;
   }
