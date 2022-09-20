@@ -1,16 +1,22 @@
-body{
-    background-color: rgb(253, 251, 251) 
+* {margin: 0px;
+padding: 0px;}
+body {
+    background-color: rgb(253, 251, 251); 
 }
 #cabecalho {
+    position: fixed;
     background-color: green;
     top: 0;
     left: 0;
     right: 0;
     height: 35px;
   }
-  #titulo{
+  #titulo {
     top: 0;
   }
-  #minha_foto{
+  #minha_foto {
     width: 200px;
+  }
+  #liceos_aprendidas{
+    margin: 30px;
   }
