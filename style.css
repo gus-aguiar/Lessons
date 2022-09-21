@@ -1,5 +1,6 @@
-* {margin: 0px;
-padding: 0px;}
+* {
+    margin: 0px;
+    padding: 0px;}
 body {
     background-color: rgb(253, 251, 251); 
     font-family: helvetica;
@@ -32,11 +33,13 @@ body {
     display: inline-block;
     float: left;
     width: 45%;
+    margin-left: 5px;
   }
   .lado-direito{
     display: inline-block;
     float: right;
     width: 30%;
+    margin-right: 5px;
   }
 
   ul{
@@ -52,14 +55,16 @@ body {
     padding: 10px;
   }
   #rodape {
+    margin-left: 10px;
+    margin-right: 10px;
     float: left;
-    position: absolute;
+    position: relative;
     top: 350%;
     width: 90%;
     height: 10px;
     text-align: center;
     border: 1px black solid;
-    padding: 20px;
+    padding: 10px;
   }
   h2{
     float: left;
@@ -75,4 +80,7 @@ body {
   }
   tr:nth-child(even) {
     background-color: #a3a0a0;
+  }
+  .titabela{
+    text-align: center;
   }
