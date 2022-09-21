@@ -22,6 +22,8 @@ body {
   }
   #minha_foto {
     width: 200px;
+    border-radius: 20px;
+    margin-top: 35px;
   }
   #licoes_aprendidas{
     margin: 5%;
@@ -34,12 +36,16 @@ body {
     float: left;
     width: 45%;
     margin-left: 5px;
+    border: 1px solid black;
+    height: 200px;
   }
   .lado-direito{
     display: inline-block;
     float: right;
     width: 30%;
     margin-right: 5px;
+    height: 200px;
+    border: 1px solid black;
   }
 
   ul{
@@ -57,11 +63,12 @@ body {
   #rodape {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
     float: left;
     position: relative;
-    top: 350%;
+    /* top: 350%; */
     width: 90%;
-    height: 10px;
+    /* height: 10px; */
     text-align: center;
     border: 1px black solid;
     padding: 10px;
@@ -72,6 +79,7 @@ body {
   }
   #linkedin{
     text-decoration: none;
+    padding: 5px;
   }
   td, th {
     border: 1px solid #a3a0a0;
@@ -82,5 +90,10 @@ body {
     background-color: #a3a0a0;
   }
   .titabela{
-    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 1px solid black; */
+    /* text-align: center; */
   }
